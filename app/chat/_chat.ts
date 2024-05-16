@@ -3,7 +3,7 @@
 import Groq from "groq-sdk";
 
 export async function SendChat(message: string) {
-  const key = "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";
+  const key = "";
 
   const groq = new Groq({
     apiKey: key,
